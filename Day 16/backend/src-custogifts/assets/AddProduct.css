@@ -1,0 +1,35 @@
+.data-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.data-content {
+    height: 70vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.data-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 70%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.route-btn-1 {
+    padding: 1rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
