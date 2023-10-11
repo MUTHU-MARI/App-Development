@@ -1,0 +1,123 @@
+.head-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.head-title h1 {
+  font-size: 24px;
+}
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li {
+  display: inline;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.btn-download {
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-download i {
+  margin-right: 5px;
+}
+
+/* Dashboard data boxes */
+.box-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.box-info li {
+  flex: 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.box-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-info p {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Recent Orders table */
+.table-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.order h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Todo List */
+.todo {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.todo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Define styles for completed and not-completed todos */
+.todo-list li.completed {
+  color: #28a745;
+}
+
+.todo-list li.not-completed {
+  color: #dc3545;
+}
+
+/* Add more specific styles as needed */
